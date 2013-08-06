@@ -1,13 +1,15 @@
 
-if !has("gui_running")
-  set t_Co=256
-endif
 
 source ~/.dotfiles/vim/pathogen/autoload/pathogen.vim
 call pathogen#infect('~/.dotfiles/vim/langs/{}')
 call pathogen#infect('~/.dotfiles/vim/plugins/{}')
 call pathogen#infect('~/.dotfiles/vim/indent/{}')
+Helptags
+
 
 syntax on
 filetype plugin indent on
+
+source ~/.dotfiles/vim/vinimum_vimrc
+source ~/.dotfiles/vim/appearance_vimrc
 
