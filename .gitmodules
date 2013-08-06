@@ -85,3 +85,6 @@
 [submodule "vim/plugins/taglist"]
 	path = vim/plugins/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "zsh/oh-my-zsh"]
+	path = zsh/oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
