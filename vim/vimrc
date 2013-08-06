@@ -1,0 +1,8 @@
+
+
+source ~/.dotfiles/vim/pathogen/autoload/pathogen.vim
+call pathogen#infect('plugins/{}')
+call pathogen#infect('langs/{}')
+
+
+
