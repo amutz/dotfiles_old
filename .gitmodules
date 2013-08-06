@@ -28,3 +28,54 @@
 [submodule "vim/langs/ruby"]
 	path = vim/langs/ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "vim/plugins/ack"]
+	path = vim/plugins/ack
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "vim/plugins/bundler"]
+	path = vim/plugins/bundler
+	url = https://github.com/tpope/vim-bundler.git
+[submodule "vim/plugins/ctrlp"]
+	path = vim/plugins/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vim/plugins/fugitive"]
+	path = vim/plugins/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/plugins/matchit"]
+	path = vim/plugins/matchit
+	url = https://github.com/edsono/vim-matchit.git
+[submodule "vim/plugins/nerdtree"]
+	path = vim/plugins/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/plugins/obsession"]
+	path = vim/plugins/obsession
+	url = https://github.com/tpope/vim-obsession.git
+[submodule "vim/plugins/rake"]
+	path = vim/plugins/rake
+	url = https://github.com/tpope/vim-rake.git
+[submodule "vim/plugins/surround"]
+	path = vim/plugins/surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim/plugins/syntastic"]
+	path = vim/plugins/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim/plugins/textobj-entire"]
+	path = vim/plugins/textobj-entire
+	url = https://github.com/kana/vim-textobj-entire.git
+[submodule "vim/plugins/textobj-function"]
+	path = vim/plugins/textobj-function
+	url = https://github.com/kana/vim-textobj-function.git
+[submodule "vim/plugins/textobj-function-ruby"]
+	path = vim/plugins/textobj-function-ruby
+	url = https://github.com/t9md/vim-textobj-function-ruby.git
+[submodule "vim/plugins/vim-textobj-indent"]
+	path = vim/plugins/vim-textobj-indent
+	url = https://github.com/kana/vim-textobj-indent.git
+[submodule "vim/plugins/vim-textobj-line"]
+	path = vim/plugins/vim-textobj-line
+	url = https://github.com/kana/vim-textobj-line.git
+[submodule "vim/plugins/textobj-rubyblock"]
+	path = vim/plugins/textobj-rubyblock
+	url = https://github.com/nelstrom/vim-textobj-rubyblock.git
+[submodule "vim/plugins/textobj-user"]
+	path = vim/plugins/textobj-user
+	url = https://github.com/kana/vim-textobj-user.git
