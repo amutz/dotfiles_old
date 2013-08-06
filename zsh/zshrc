@@ -33,7 +33,10 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
-plugins=(brew bundler coffee gem git git-extras git-hubflow github osx rails rails3 rvm ruby svn)
+
+
+#plugins=(brew bundler coffee gem git git-extras git-hubflow osx rails rails3 rvm ruby svn)
+plugins=( git )
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct
