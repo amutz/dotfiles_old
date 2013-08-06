@@ -1,3 +1,30 @@
 [submodule "vim/pathogen"]
 	path = vim/pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule "vim/langs/csv"]
+	path = vim/langs/csv
+	url = https://github.com/vim-scripts/csv.vim.git
+[submodule "vim/langs/cucumber"]
+	path = vim/langs/cucumber
+	url = https://github.com/tpope/vim-cucumber.git
+[submodule "vim/langs/git"]
+	path = vim/langs/git
+	url = https://github.com/tpope/vim-git.git
+[submodule "vim/langs/javascript"]
+	path = vim/langs/javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "vim/langs/markdown"]
+	path = vim/langs/markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "vim/langs/rspec"]
+	path = vim/langs/rspec
+	url = https://github.com/skwp/vim-rspec.git
+[submodule "vim/plugins/vim-rails"]
+	path = vim/plugins/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "vim/plugins/vim-bundler"]
+	path = vim/plugins/vim-bundler
+	url = https://github.com/tpope/vim-bundler.git
+[submodule "vim/langs/ruby"]
+	path = vim/langs/ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
