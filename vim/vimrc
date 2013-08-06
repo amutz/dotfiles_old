@@ -12,4 +12,5 @@ filetype plugin indent on
 
 source ~/.dotfiles/vim/vinimum_vimrc
 source ~/.dotfiles/vim/appearance_vimrc
+source ~/.dotfiles/vim/bernhardt_vimrc
 
