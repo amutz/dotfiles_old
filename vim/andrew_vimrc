@@ -1,0 +1,3 @@
+
+:map <Leader>q :!clear && chruby ruby 2.0 && ruby -I. % <CR>
+

@@ -45,4 +45,5 @@ unsetopt correct_all
 
 export EDITOR=vim
 
+source $HOME/.dotfiles/zsh/chruby_zshrc
 
