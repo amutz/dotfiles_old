@@ -1,3 +1,5 @@
 
 :map <Leader>q <Esc>:w<CR>:!clear<CR>:!ruby -I. %<CR>
 
+autocmd FileType ruby setlocal omnifunc=gnosticruby#Complete
+
