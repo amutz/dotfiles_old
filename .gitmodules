@@ -91,3 +91,9 @@
 [submodule "vim/plugins/zoomwin"]
 	path = vim/plugins/zoomwin
 	url = https://github.com/regedarek/ZoomWin.git
+[submodule "vim/plugins/endwise"]
+	path = vim/plugins/endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "vim/langs/elixir"]
+	path = vim/langs/elixir
+	url = https://github.com/elixir-lang/vim-elixir.git
