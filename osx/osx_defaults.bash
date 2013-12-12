@@ -418,6 +418,9 @@ defaults write com.apple.DiskUtility advanced-image-options -bool true
 # Kill affected applications                                                  #
 ###############################################################################
 
+#disable backwards swipe on chrome
+defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
+
 for app in "Address Book" "Calendar" "Contacts" "Dashboard" "Dock" "Finder" \
 	"Mail" "Safari" "SizeUp" "SystemUIServer" "Terminal" "Transmission" \
 	"Twitter" "iCal" "iTunes"; do
