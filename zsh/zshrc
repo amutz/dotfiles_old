@@ -47,3 +47,6 @@ export EDITOR=vim
 
 source $HOME/.dotfiles/zsh/chruby_zshrc
 
+PATH='/usr/local/bin:'$PATH
+PATH='/usr/local/sbin:'$PATH
+
