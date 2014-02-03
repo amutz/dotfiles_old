@@ -100,3 +100,6 @@
 [submodule "vim/langs/coffee-script"]
 	path = vim/langs/coffee-script
 	url = git@github.com:kchmck/vim-coffee-script.git
+[submodule "vim/plugins/ruby-refactoring"]
+	path = vim/plugins/ruby-refactoring
+	url = git@github.com:ecomba/vim-ruby-refactoring.git
