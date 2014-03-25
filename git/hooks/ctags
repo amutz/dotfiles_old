@@ -1,0 +1,14 @@
+#!/bin/sh
+IGNORE=("/usr" "${HOME}/.gem" "${HOME}/.rbenv");
+for dir in "${IGNORE[@]}"
+do
+  case "$PWD" in
+    ${dir}*) exit 0;;
+  esac
+done
+
+mkdir .git/tags_lock 2>/dev/null || exit 0
+trap "rmdir .git/tags_lock; rm -f .git/tags.$$" EXIT
+
+git ls-files | ctags --tag-relative -f .git/tags.$$ --languages=-sql -L -
+mv .git/tags.$$ .git/tags
