@@ -50,5 +50,6 @@ source $HOME/.dotfiles/zsh/chruby_zshrc
 PATH='/usr/local/bin:'$PATH
 PATH='/usr/local/sbin:'$PATH
 
-
+alias brake="bundle exec rake"
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:$HOME/bin
